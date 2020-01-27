@@ -53,10 +53,11 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.each do |season, data|
-    "#{season}:"
-    data.each do |holiday, item|
-       "#{holiday.to_s.split("_").map {|x| x}.join(" ")}: #{item.join(", ")}"
+  holiday_hash.each do |season, holiday|
+    puts season.to_s.capitalize! << ":"
+    holiday.each do |holiday, supplies|
+       supplies = item.join(", ")}
+       holiday = 
     end
     binding.pry
   end
