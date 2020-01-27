@@ -37,7 +37,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   # add the second argument to the memorial day array
   
 end
-add_supply_to_memorial_day(holiday_supplies, "baloons")
+
 binding.pry
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
